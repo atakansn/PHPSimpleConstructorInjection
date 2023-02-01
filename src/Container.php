@@ -133,7 +133,7 @@ class Container implements ContainerInterface
      * @return null|ReflectionClass
      * @throws ReflectionException
      */
-    public function getBinding(string $id): null|ReflectionClass
+    public function getBinding(string $id)
     {
         if (is_callable($this->bindings[$id])) {
             return $this->resolved($id);
