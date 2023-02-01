@@ -1,0 +1,18 @@
+{
+    "name": "php/simple-constructor-injection",
+    "description": "Very very simple container example that injects dependency on class constructor.",
+    "autoload": {
+        "psr-4": {
+            "ConstructorInjection\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Atakan Senturk",
+            "email": "atkansenturk@protonmail.com"
+        }
+    ],
+    "require": {
+        "psr/container": "^2.0"
+    }
+}
