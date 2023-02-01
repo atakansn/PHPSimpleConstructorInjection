@@ -1,5 +1,5 @@
 {
-    "name": "php/simple-constructor-injection",
+    "name": "php-simple/constructor-injection",
     "description": "Very very simple container example that injects dependency on class constructor.",
     "autoload": {
         "psr-4": {
